@@ -1,0 +1,14 @@
+bin/
+obj/
+.vscode/
+.idea/
+*.user
+*.suo
+*.bak
+*.swp
+*.sln.cache
+*.log
+*.db
+.env
+appsettings.json
+appsettings.Development.json
