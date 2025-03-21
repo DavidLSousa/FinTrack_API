@@ -1,5 +1,5 @@
 
-namespace FinTrack_API.Model
+namespace FinTrack_API.src.Model
 {
     public class TicketDTO
     {

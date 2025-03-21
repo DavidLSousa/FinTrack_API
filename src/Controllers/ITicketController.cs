@@ -1,5 +1,5 @@
 
-namespace FinTrack_API.Controllers
+namespace FinTrack_API.src.Controllers
 {
     public interface ITicketController
     {
