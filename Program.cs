@@ -1,4 +1,5 @@
 using FinTrack_API.router;
+using FinTrack_API.src.Repositories;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +15,8 @@ builder.Services.AddSwaggerGen(c =>
         }
     );
 });
+
+builder.Services.AddScoped<IDatabaseRepository, MariaDBRepository>();
 
 var app = builder.Build();
 var port = Environment.GetEnvironmentVariable("PORT") ?? "5001";
